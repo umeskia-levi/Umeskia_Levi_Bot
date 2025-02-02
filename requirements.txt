@@ -1,0 +1,2 @@
+python-telegram-bot==20.x  # Replace with the version you're using
+requests
