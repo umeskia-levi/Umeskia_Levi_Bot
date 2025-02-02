@@ -121,7 +121,7 @@ def get_weather(lat, lon):
 # Handler for the /start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
-        [InlineKeyboardButton("Get My IP", web_app=WebAppInfo(url="http://<your-ec2-public-ip>/web_app.html"))]
+        [InlineKeyboardButton("Get My IP", web_app=WebAppInfo(url="http://13.51.204.40/web_app.html"))]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text(
